@@ -1,8 +1,8 @@
 package com.example.spring_redis_kafka.controller;
 
-import com.example.spring_redis_kafka.service.LowestPriceService;
-import com.example.spring_redis_kafka.vo.Keyword;
 import com.example.spring_redis_kafka.common.exception.NotFoundException;
+import com.example.spring_redis_kafka.service.redis.LowestPriceService;
+import com.example.spring_redis_kafka.vo.Keyword;
 import com.example.spring_redis_kafka.vo.Product;
 import com.example.spring_redis_kafka.vo.ProductGroup;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/redis")
 public class LowestPriceController {
 
     @Autowired
