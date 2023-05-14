@@ -1,4 +1,4 @@
-package com.example.spring_redis_kafka.service;
+package com.example.spring_redis_kafka.service.redis;
 
 
 import com.example.spring_redis_kafka.vo.Keyword;

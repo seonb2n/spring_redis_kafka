@@ -1,7 +1,7 @@
-package com.example.spring_redis_kafka.service;
+package com.example.spring_redis_kafka.service.redis;
 
-import com.example.spring_redis_kafka.vo.Keyword;
 import com.example.spring_redis_kafka.common.exception.NotFoundException;
+import com.example.spring_redis_kafka.vo.Keyword;
 import com.example.spring_redis_kafka.vo.Product;
 import com.example.spring_redis_kafka.vo.ProductGroup;
 import com.fasterxml.jackson.databind.ObjectMapper;
