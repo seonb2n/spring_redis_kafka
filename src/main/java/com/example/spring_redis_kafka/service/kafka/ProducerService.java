@@ -5,14 +5,14 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Producer {
+public class ProducerService {
 
     String topicName = "defaultTopic";
 
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Autowired
-    public Producer(KafkaTemplate kafkaTemplate) {
+    public ProducerService(KafkaTemplate kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
 
